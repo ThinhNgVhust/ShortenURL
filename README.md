@@ -8,7 +8,7 @@ Lib:
 - FrontEnd
     - HTML, CSS, Boostrap
     - JS
-
+    - layout.html. error page (expire, wrong url..... ), success page(shorten url, coppy button). 
 
 Task:
 1. Create prj, set up front end using form boostrap.(3h)
