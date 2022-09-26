@@ -1,0 +1,29 @@
+{% extends "myapp/layout.html" %}
+{% load static %}
+
+{% block body %}
+<div class="card" style="width: auto;">
+    <h3 class="card-img-top">An error occurred to generate the URL</h3>
+    <div class="card-body">
+      <p class="card-title"><b>The URL is not valid</b>, make sure the URL you tried to shorten is correct.</p>
+      <p class="card-text">
+        <div class="list-group">
+            <ol>
+                <li>Check if the domain is correct</li>
+                <li>Check if the site is online</li>
+                <li>Check the length of the url is not too small</li>
+                <li>Check the address bars and punctuation</li>
+                <li>The URL may have been blocked</li>
+                <li>The url may have been reported</li>
+                <li>Make sure the url does not contain spam</li>
+            </ol>
+          </div>
+      </p>
+      <a href="#" class="btn btn-primary">Go back and try again</a>
+    </div>
+</div>
+
+{% endblock %}
+
+
+

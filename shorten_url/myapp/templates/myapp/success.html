@@ -1,0 +1,33 @@
+{% extends "myapp/layout.html" %}
+{% load static %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <h1>Your shortened URL</h1>
+    </div>
+    <br>
+    <div class="row">
+        <p>Copy the shortened link and share it in messages, texts, posts, websites and other locations.</p>
+    </div>
+    <div class="row">
+        <form class="form-inline ">
+            <input class="form-control mr-sm-2" type="search"  aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Copy</button>
+            <!-- d-none d-inline -->
+            <p class=" alert-success d-inline" role="alert" >
+                Copied!
+            </p>
+        </form>
+       
+    </div>
+    <br>
+    <div class="row">
+        <p>Create other<a href="#"> shortened URL.</a></p>
+    </div>
+</div>
+
+{% endblock %}
+
+
+
