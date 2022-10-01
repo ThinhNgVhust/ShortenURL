@@ -31,3 +31,40 @@ Task:
 
 Source:      
 Cache: https://www.youtube.com/watch?v=iDZKqk_NH24 
+
+
+
+
+### Detail 
+<hr>
+
+- Create app: django-admin startproject  PROJECT_NAME 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## My thinking of this solution
+- If i using django csrf_token, will my app be **statefull**?
+- What if 
